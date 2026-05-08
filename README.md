@@ -41,7 +41,8 @@ Built department-based Administrative Units with dynamic membership rules. Deleg
 
 > **SCREENSHOT:** IT-AdminUnit showing dynamic membership rule `(user.department -eq "IT")` and the populated members list
 <img width="1633" height="565" alt="DynamicGroups" src="https://github.com/user-attachments/assets/e44f6e75-0ff5-4c16-8970-b657c3e4472d" />
-<img width="1633" height="565" alt="image" src="https://github.com/user-attachments/assets/514b8e66-b2f4-483e-8599-ed8a1d731af5" />
+<img width="1630" height="617" alt="DynamicRules" src="https://github.com/user-attachments/assets/6014fe94-5660-4c06-b1b9-5ecb540e16c8" />
+
 
 
 ---
