@@ -24,8 +24,8 @@ This wasn't a guided click-through. I worked through 110 structured tasks across
 
 ---
 
-<img width="800" height="800" alt="northwind-iam-architecture" src="https://github.com/user-attachments/assets/09ef3452-09bd-45d8-bad7-3a48e75f3ab0" />
----
+<img width="600" height="600" alt="northwind-iam-architecture" src="https://github.com/user-attachments/assets/09ef3452-09bd-45d8-bad7-3a48e75f3ab0" />
+
 
 ## What I Covered (12 Phases)
 
