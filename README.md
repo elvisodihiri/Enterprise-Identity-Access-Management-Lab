@@ -5,7 +5,7 @@
 
 ## What I Built
 
-I built a full enterprise IAM environment from scratch for a fictional organisation, **Northwind Data Systems** — covering everything from on-premises Active Directory through to cloud identity, Zero Trust, and identity governance.
+I built a full enterprise IAM environment from scratch for a fictional organisation, **Northwind Data Systems**  covering everything from on-premises Active Directory through to cloud identity, Zero Trust, and identity governance.
 
 This wasn't a guided click-through. I worked through 110 structured tasks across 12 phases, troubleshot real sync errors, misconfigured CA policies, and broke things (then fixed them). The goal was to build the kind of hands-on depth that doesn't show up in a cert alone.
 
@@ -25,22 +25,24 @@ This wasn't a guided click-through. I worked through 110 structured tasks across
 ---
 
 <img width="600" height="600" alt="northwind-iam-architecture" src="https://github.com/user-attachments/assets/09ef3452-09bd-45d8-bad7-3a48e75f3ab0" />
-
+<br/>
+<br/>
 
 ## What I Covered (12 Phases)
 
 ### Phase 1 — Tenant Foundation
 Custom domain, DNS verification, company branding, break-glass accounts, password protection policies.
 
-> **SCREENSHOT:** Entra portal showing verified custom domain (northwinddata.com) + company branding on the sign-in page (open a private browser window to capture it)
+
 <img width="800" height="600" alt="login" src="https://github.com/user-attachments/assets/5aaa1db3-a466-4a14-b2b0-8833021df54c" />
+<br/>
 <br/>
 ---
 
 ### Phase 2 — Administrative Units & Scoped Delegation
-Built department-based Administrative Units with dynamic membership rules. Delegated Helpdesk Admin, User Admin, and Authentication Admin roles scoped per-department — so HR admins can only touch HR users. Configured a Restricted Management AU to protect exec accounts from even Global Admins.
+Built department based Administrative Units with dynamic membership rules. Delegated Helpdesk Admin, User Admin, and Authentication Admin roles scoped per-department so HR admins can only touch HR users. Configured a Restricted Management AU to protect exec accounts from even Global Admins.
 
-> **SCREENSHOT:** IT-AdminUnit showing dynamic membership rule `(user.department -eq "IT")` and the populated members list
+
 <img width="1000" height="600" alt="AdminUnit" src="https://github.com/user-attachments/assets/e2271fdc-23a5-4b47-afae-6cfdeccb0d38" />
 <br/>
 <br/>
@@ -53,9 +55,10 @@ Built department-based Administrative Units with dynamic membership rules. Deleg
 ### Phase 3 — Advanced Group Management
 Created Microsoft 365 Groups, dynamic security groups with complex attribute rules, group nesting (cloud AGDLP model), group-based licensing, and group writeback to on-prem AD.
 
-> **SCREENSHOT:** Dynamic group rule editor for one of the complex rules (e.g., DYN-SeniorLeadership using jobTitle contains "Manager" or "VP")
+
 <img width="1000" height="500" alt="DynamicGroups" src="https://github.com/user-attachments/assets/e44f6e75-0ff5-4c16-8970-b657c3e4472d" />
 <img width="1000" height="600" alt="DynamicRules" src="https://github.com/user-attachments/assets/6014fe94-5660-4c06-b1b9-5ecb540e16c8" />
+<br/>
 <br/>
 ---
 
