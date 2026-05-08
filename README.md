@@ -24,10 +24,7 @@ This wasn't a guided click-through. I worked through 110 structured tasks across
 
 ---
 
-## 📸 Architecture Overview
-
-> **SCREENSHOT TO ADD:** Full architecture diagram showing DC1 → Entra Connect → Entra ID tenant, with the 12 phases labelled. Draw this in draw.io or just use a clean screenshot of your Entra portal Overview page showing your tenant, synced users, and Connect health status.
-
+<img width="1600" height="1800" alt="northwind-iam-architecture" src="https://github.com/user-attachments/assets/09ef3452-09bd-45d8-bad7-3a48e75f3ab0" />
 ---
 
 ## What I Covered (12 Phases)
