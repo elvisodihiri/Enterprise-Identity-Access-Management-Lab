@@ -80,8 +80,12 @@ Configured Microsoft Authenticator with number matching (MFA fatigue prevention)
 ### Phase 6 — Conditional Access (Zero Trust)
 Built a full CA policy stack: baseline MFA for all users, legacy auth block, location-based policies for Finance, compliant device requirements, risk-based MFA, high-risk user block, Terms of Use enforcement, and session controls. Used Report-Only mode and the What If tool before enabling each policy.
 
-> **SCREENSHOT:** CA policy list showing all policies (CA001–CA010) with their enabled/report-only status — and one policy open showing the full configuration (e.g., CA001 with MFA grant and break-glass exclusions)
 
+<img width="1620" height="839" alt="ConditionalPolicy" src="https://github.com/user-attachments/assets/0cdd01c6-3edc-4e9d-a836-e4e0da7a0ba9" />
+<img width="822" height="897" alt="ConditionPolicy222" src="https://github.com/user-attachments/assets/810ba579-6c0b-4c3c-8bda-b5cde924ec70" />
+
+<br/>
+<br/>
 ---
 
 ### Phase 7 — Identity Protection
