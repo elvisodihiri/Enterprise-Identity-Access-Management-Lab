@@ -40,6 +40,9 @@ Custom domain, DNS verification, company branding, break-glass accounts, passwor
 Built department-based Administrative Units with dynamic membership rules. Delegated Helpdesk Admin, User Admin, and Authentication Admin roles scoped per-department — so HR admins can only touch HR users. Configured a Restricted Management AU to protect exec accounts from even Global Admins.
 
 > **SCREENSHOT:** IT-AdminUnit showing dynamic membership rule `(user.department -eq "IT")` and the populated members list
+<img width="1633" height="565" alt="DynamicGroups" src="https://github.com/user-attachments/assets/e44f6e75-0ff5-4c16-8970-b657c3e4472d" />
+<img width="1633" height="565" alt="image" src="https://github.com/user-attachments/assets/514b8e66-b2f4-483e-8599-ed8a1d731af5" />
+
 
 ---
 
