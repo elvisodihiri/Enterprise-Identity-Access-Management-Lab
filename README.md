@@ -34,7 +34,7 @@ Custom domain, DNS verification, company branding, break-glass accounts, passwor
 
 > **SCREENSHOT:** Entra portal showing verified custom domain (northwinddata.com) + company branding on the sign-in page (open a private browser window to capture it)
 <img width="800" height="600" alt="login" src="https://github.com/user-attachments/assets/5aaa1db3-a466-4a14-b2b0-8833021df54c" />
-
+<br/>
 ---
 
 ### Phase 2 — Administrative Units & Scoped Delegation
@@ -42,7 +42,9 @@ Built department-based Administrative Units with dynamic membership rules. Deleg
 
 > **SCREENSHOT:** IT-AdminUnit showing dynamic membership rule `(user.department -eq "IT")` and the populated members list
 <img width="1000" height="600" alt="AdminUnit" src="https://github.com/user-attachments/assets/e2271fdc-23a5-4b47-afae-6cfdeccb0d38" />
-
+<br/>
+<br/>
+<br/>
 
 
 
@@ -54,7 +56,7 @@ Created Microsoft 365 Groups, dynamic security groups with complex attribute rul
 > **SCREENSHOT:** Dynamic group rule editor for one of the complex rules (e.g., DYN-SeniorLeadership using jobTitle contains "Manager" or "VP")
 <img width="1000" height="500" alt="DynamicGroups" src="https://github.com/user-attachments/assets/e44f6e75-0ff5-4c16-8970-b657c3e4472d" />
 <img width="1000" height="600" alt="DynamicRules" src="https://github.com/user-attachments/assets/6014fe94-5660-4c06-b1b9-5ecb540e16c8" />
-
+<br/>
 ---
 
 ### Phase 4 — RBAC & Custom Roles
