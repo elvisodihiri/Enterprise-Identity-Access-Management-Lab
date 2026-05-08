@@ -64,9 +64,10 @@ Created Microsoft 365 Groups, dynamic security groups with complex attribute rul
 
 ### Phase 4 — RBAC & Custom Roles
 Audited existing role assignments, designed a least-privilege RBAC model, created a custom Entra ID role (`NWD-ServiceDesk-UserEditor`) with specific permissions granted and blocked, and configured PIM-eligible role assignments.
+<img width="900" height="550" alt="CustomRole" src="https://github.com/user-attachments/assets/90d8b3a4-c256-4c59-aeef-15559e358a0a" />
 
-> **SCREENSHOT:** Custom role permissions page showing the specific permissions added (basic/read, standard/read, basic/update) with password reset explicitly absent
-
+<br/>
+<br/>
 ---
 
 ### Phase 5 — Authentication & Passwordless
