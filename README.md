@@ -172,6 +172,7 @@ Manage privileged access securely
 Maintain identity governance at scale 
 
 Troubleshoot complex IAM issues 
+
 ---
 
 
