@@ -71,8 +71,8 @@ Audited existing role assignments, designed a least-privilege RBAC model, create
 ### Phase 5 — Authentication & Passwordless
 Configured Microsoft Authenticator with number matching (MFA fatigue prevention), SSPR with on-prem writeback, Temporary Access Pass for new hire onboarding, FIDO2 security key policy, and passwordless phone sign-in.
 
-> **SCREENSHOT:** Authentication Methods policy showing Authenticator enabled with number matching turned on — and the SSPR configuration page showing methods enabled
-<img width="900" height="480" alt="Passwordreset" src="https://github.com/user-attachments/assets/1e5e3d06-9d1c-4c9b-b89e-ff4f39050b3e" />
+<img width="996" height="480" alt="Passwordreset" src="https://github.com/user-attachments/assets/466838bb-44d8-4b15-b50d-597f43867dda" />
+
 <br/>
 <br/>
 ---
@@ -103,7 +103,8 @@ Configured risk-based policies, investigated risky sign-ins, remediated a simula
 Installed and configured Azure AD Connect, enabled Password Hash Sync and Password Writeback, configured OU filtering to exclude servers and service account OUs, added attribute filtering to block personal data from syncing (GDPR), and verified Seamless SSO on domain-joined workstations.
 
 > **SCREENSHOT:** Azure AD Connect sync status page showing last sync time + Entra Users page filtered to "On-premises sync enabled: Yes" showing synced users
-
+<br/>
+<br/>
 ---
 
 ### Phase 9 — Identity Governance
@@ -156,10 +157,21 @@ Real issues I diagnosed and resolved during the lab:
 
 ---
 
-## Certification Alignment
+## Conclusion 
 
-This lab covers every major domain of the **SC-300: Microsoft Identity and Access Administrator** exam at mid-to-advanced level.
+This project demonstrates hands-on, enterprise-level experience in Identity & Access Management, aligned with SC-300 certification objectives. 
 
+It reflects the ability to: 
+
+Design secure identity architectures 
+
+Implement Zero Trust access controls 
+
+Manage privileged access securely 
+
+Maintain identity governance at scale 
+
+Troubleshoot complex IAM issues 
 ---
 
 
