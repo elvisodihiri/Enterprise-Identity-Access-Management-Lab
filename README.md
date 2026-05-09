@@ -48,8 +48,6 @@ Built department based Administrative Units with dynamic membership rules. Deleg
 <br/>
 <br/>
 
-
-
 ---
 
 ### Phase 3 — Advanced Group Management
@@ -74,15 +72,17 @@ Audited existing role assignments, designed a least-privilege RBAC model, create
 Configured Microsoft Authenticator with number matching (MFA fatigue prevention), SSPR with on-prem writeback, Temporary Access Pass for new hire onboarding, FIDO2 security key policy, and passwordless phone sign-in.
 
 > **SCREENSHOT:** Authentication Methods policy showing Authenticator enabled with number matching turned on — and the SSPR configuration page showing methods enabled
-
+<img width="900" height="480" alt="Passwordreset" src="https://github.com/user-attachments/assets/1e5e3d06-9d1c-4c9b-b89e-ff4f39050b3e" />
+<br/>
+<br/>
 ---
 
 ### Phase 6 — Conditional Access (Zero Trust)
 Built a full CA policy stack: baseline MFA for all users, legacy auth block, location-based policies for Finance, compliant device requirements, risk-based MFA, high-risk user block, Terms of Use enforcement, and session controls. Used Report-Only mode and the What If tool before enabling each policy.
 
 
-<img width="1620" height="839" alt="ConditionalPolicy" src="https://github.com/user-attachments/assets/0cdd01c6-3edc-4e9d-a836-e4e0da7a0ba9" />
-<img width="822" height="897" alt="ConditionPolicy222" src="https://github.com/user-attachments/assets/810ba579-6c0b-4c3c-8bda-b5cde924ec70" />
+<img width="1020" height="800" alt="ConditionalPolicy" src="https://github.com/user-attachments/assets/0cdd01c6-3edc-4e9d-a836-e4e0da7a0ba9" />
+<img width="822" height="850" alt="ConditionPolicy222" src="https://github.com/user-attachments/assets/810ba579-6c0b-4c3c-8bda-b5cde924ec70" />
 
 <br/>
 <br/>
@@ -90,8 +90,12 @@ Built a full CA policy stack: baseline MFA for all users, legacy auth block, loc
 
 ### Phase 7 — Identity Protection
 Configured risk-based policies, investigated risky sign-ins, remediated a simulated credential breach, set up real-time SOC notifications, and tested detection using Tor Browser to trigger anonymous IP risk signals.
+<img width="1026" height="800" alt="RiskyUser" src="https://github.com/user-attachments/assets/a419ae3e-5af5-4ad5-8757-44ec0448192a" />
+<img width="1062" height="474" alt="RiskySignin" src="https://github.com/user-attachments/assets/6351d30d-3146-45d5-874d-53f75af50e97" />
 
-> **SCREENSHOT:** Identity Protection dashboard showing Risky users and/or Risky sign-ins — ideally with at least one test detection visible
+<br/>
+<br/>
+
 
 ---
 
@@ -104,8 +108,11 @@ Installed and configured Azure AD Connect, enabled Password Hash Sync and Passwo
 
 ### Phase 9 — Identity Governance
 Built entitlement management catalogues and access packages with approval workflows. Configured quarterly access reviews with auto-apply. Built a Lifecycle Workflow to automate new hire onboarding (TAP generation, group assignment, welcome email) triggered by employeeHireDate.
+<img width="1028" height="457" alt="Catalogue" src="https://github.com/user-attachments/assets/a28b4c82-2836-4f01-a781-38cb024ebe23" />
+<img width="1000" height="502" alt="AccessPackage" src="https://github.com/user-attachments/assets/da6f6034-d691-482c-baaf-242314663eb6" />
 
-> **SCREENSHOT:** Access package request flow — either the My Access portal showing the Finance-NewEmployee-Access package, or the access package assignments view showing a delivered assignment
+<br/>
+<br/>
 
 ---
 
