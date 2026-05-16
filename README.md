@@ -33,7 +33,8 @@ This wasn't a guided click-through. I worked through 110 structured tasks across
 ### Phase 1 — Tenant Foundation
 Custom domain, DNS verification, company branding, break-glass accounts, password protection policies.
 
-<img width="1858" height="944" alt="login" src="https://github.com/user-attachments/assets/63738c56-ca9f-47a6-9d98-3312e4d8ed7f" />
+<img width="1865" height="944" alt="Login" src="https://github.com/user-attachments/assets/305f8e60-7f77-4d1b-b872-8bbb0c62054a" />
+
 
 
 <br/>
