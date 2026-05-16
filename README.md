@@ -108,6 +108,8 @@ Configured risk-based policies, investigated risky sign-ins, remediated a simula
 
 ### Phase 8 — Hybrid Identity
 Installed and configured Azure AD Connect, enabled Password Hash Sync and Password Writeback, configured OU filtering to exclude servers and service account OUs, added attribute filtering to block personal data from syncing (GDPR), and verified Seamless SSO on domain-joined workstations.
+<img width="977" height="544" alt="Connect Sync" src="https://github.com/user-attachments/assets/b2cae731-9692-48a9-9128-b7e434e8d200" />
+<img width="1494" height="882" alt="ADConnectUsers" src="https://github.com/user-attachments/assets/6e7eef62-bce3-4a1a-ac27-39375830759a" />
 
 
 <br/>
@@ -127,15 +129,22 @@ Built entitlement management catalogues and access packages with approval workfl
 
 ### Phase 10 — B2B Guest Access
 Configured external collaboration settings, invited B2B guests, set up cross-tenant access with MFA trust for a partner organisation, created an external-facing access package, and restricted guest directory enumeration permissions.
+<img width="1349" height="905" alt="Crosstenant" src="https://github.com/user-attachments/assets/a37f12e1-1102-47e9-b267-b6daa3c52718" />
 
+<br/>
+<br/>
 
 
 ---
 
 ### Phase 11 — Enterprise Applications & SSO
 Configured SAML 2.0 SSO, restricted app access to specific groups, set up SCIM automatic provisioning (Joiner/Mover/Leaver), created app roles (Finance.Viewer / Finance.Editor), and mapped roles as claims in the SAML token.
+<img width="1634" height="565" alt="enterprise App" src="https://github.com/user-attachments/assets/2ee49e9e-d403-4fec-a3cf-1e83e996d838" />
+<img width="1064" height="901" alt="Enterprise App2" src="https://github.com/user-attachments/assets/e4dae138-4833-44d2-bf70-95205e0b6cc6" />
 
 
+<br/>
+<br/>
 
 ---
 
@@ -143,6 +152,8 @@ Configured SAML 2.0 SSO, restricted app access to specific groups, set up SCIM a
 Exported logs to Log Analytics, wrote KQL queries to detect sign-ins from outside the UK, MFA failures, stale accounts, and break-glass usage. Created alert rules for SOC notification and built an identity security workbook.
 
 
+<br/>
+<br/>
 
 ---
 
